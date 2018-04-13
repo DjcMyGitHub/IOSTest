@@ -8,10 +8,13 @@
 
 #import <Foundation/Foundation.h>
 
-int main(int argc, const char * argv[]) {
-    @autoreleasepool {
-        // insert code here...
-        NSLog(@"Hello, World!");
-    }
+int showMsg(NSString *msg){
+   
+   NSLog(msg);
     return 0;
+}
+
+int main(int argc, const char * argv[]) {
+    showMsg(@"终于可以用git提交代码了");
+        return 0;
 }
